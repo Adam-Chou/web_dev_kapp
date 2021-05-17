@@ -1,0 +1,53 @@
+.centered {
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+.centered h2 {
+  margin: auto;
+}
+.centered form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.centered form select {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+}
+.centered form input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+}
+.centered button {
+  border-radius: 15px;
+}
+.centered textarea {
+  background: white;
+  width: 230px;
+  height: 230px;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.col {
+  padding: 20px;
+}
+.col #admin_userlog {
+  width: 230px;
+  height: 330px;
+}
